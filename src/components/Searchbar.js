@@ -1,8 +1,10 @@
 import React from "react";
 
 const Searchbar = () => {
+  
+
   return (
-    <div className='px-4'>
+    <div className="px-2">
       <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden border-2 border-black">
         <div className="grid place-items-center h-full w-12 text-gray-300">
           <svg
@@ -28,8 +30,8 @@ const Searchbar = () => {
           placeholder="Search something.."
         />
       </div>
-    </div>
-  );
+
+ </div> )    
 };
 
 export default Searchbar;

@@ -8,7 +8,7 @@ class CryptoMarket extends Component {
   }
 
   render() {
-    return <div>getMarketData</div>;
+    return <div className="bg-white">getMarketData</div>;
   }
 }
 

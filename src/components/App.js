@@ -6,26 +6,34 @@ import Searchbar from "./Searchbar";
 import FiatCurrencySelector from "./FiatCurrencySelector";
 import ButtonGroup from "./ButtonGroup";
 import ExchangeCoins from "./ExchangeCoins";
-// import { BarChart } from "./charts/BarChart";
+import { BarChart } from "./charts/BarChart";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-cyan-700 p-4">
-        <div className="search flex">
-          <FiatCurrencySelector />
-          <Searchbar />
-        </div>
-        <ButtonGroup />
-        {/* <BarChart/> */}
-        <CryptoMarket />
-        <div className="flex">
-          <PieChart />
-          <div className="excoins">
-            <ExchangeCoins/>
+      <div className="main flex bg-cyan-700">
+        <div className="p-4">
+          <div className="search flex">
+            <FiatCurrencySelector />
+            <Searchbar />
           </div>
-          
+          <div className="pt-2">
+            <ButtonGroup />
+          </div>
+          <div className="pt-2">
+          <BarChart/>
+          </div>
+
+          <div className="flex pt-2">
+            <PieChart />
+            <div className="excoins pl-4">
+              <ExchangeCoins />
+            </div>
+          </div>
+        </div>
+        <div className="bg-slate-500 p-4">
+          <CryptoMarket />
         </div>
       </div>
     </div>

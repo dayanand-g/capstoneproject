@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav bg-white p-5 border-b-2 border-gray-300 drop-shadow-md">
-        <img src={logo} alt="Logo" className="w-36 mx-5" />
+        <img src={logo} alt="Logo" className="w-36 mx-5 pl-4" />
       </div>
     </div>
   );
