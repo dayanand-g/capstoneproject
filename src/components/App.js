@@ -7,6 +7,7 @@ import FiatCurrencySelector from "./FiatCurrencySelector";
 import ButtonGroup from "./ButtonGroup";
 import ExchangeCoins from "./ExchangeCoins";
 import { BarChart } from "./charts/BarChart";
+import ChartTypeSelect from "./ChartTypeSelect";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           </div>
           <div className="pt-2">
             <ButtonGroup />
+            <ChartTypeSelect/>
           </div>
           <div className="pt-2">
           <BarChart/>

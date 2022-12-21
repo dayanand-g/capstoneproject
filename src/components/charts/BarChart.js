@@ -25,14 +25,14 @@ export function BarChart() {
     datasets: [
       {
         label: "369",
-        data: [3, 6, 9],
+        data: [8, 6, 11],
         backgroundColor: "aqua",
         borderColor: "black",
         borderWidth: 1,
       },
       {
         label: "333",
-        data: [3, 8, 7],
+        data: [9, 8, 7],
         backgroundColor: "red",
         borderColor: "black",
         borderWidth: 1,
